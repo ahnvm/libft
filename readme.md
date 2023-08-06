@@ -1,0 +1,1 @@
+<p>Rewriting some useful functions in c</p>
