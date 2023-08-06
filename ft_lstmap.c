@@ -6,7 +6,7 @@
 /*   By: acan <ahmetabdullahcan@outlook.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/14 15:25:29 by acan              #+#    #+#             */
-/*   Updated: 2023/07/15 14:09:44 by acan             ###   ########.fr       */
+/*   Updated: 2023/07/28 17:06:18 by acan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,9 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		return (0);
 	tmplst = ft_lstnew(f(lst->content));
 	if (!tmplst)
+	{
 		return (0);
+	}
 	ret = tmplst;
 	lst = lst->next;
 	while (lst)
