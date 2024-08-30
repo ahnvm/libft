@@ -1,1 +1,47 @@
-<p>Rewriting some useful functions in c</p>
+<h1>Rewriting some useful functions in C language</h1>
+<h2>List of the functions</h2>
+<ul>
+    <li>atoi</li>
+    <li>bzero</li>
+    <li>calloc</li>
+    <li>isalnum</li>
+    <li>isalpha</li>
+    <li>isascii</li>
+    <li>isdigit</li>
+    <li>isprint</li>
+    <li>itoa</li>
+    <li>lstadd_back</li>
+    <li>lstadd_front</li>
+    <li>lstclear</li>
+    <li>lstdelone</li>
+    <li>lstiter</li>
+    <li>lstlast</li>
+    <li>lstmap</li>
+    <li>lstnew</li>
+    <li>lstsize</li>
+    <li>memchr</li>
+    <li>memcmp</li>
+    <li>memcpy</li>
+    <li>memmove</li>
+    <li>memset</li>
+    <li>putchar_fd</li>
+    <li>putendl_fd</li>
+    <li>putnbr_fd</li>
+    <li>putstr_fd</li>
+    <li>split</li>
+    <li>strchr</li>
+    <li>strdup</li>
+    <li>striteri</li>
+    <li>strjoin</li>
+    <li>strlcat</li>
+    <li>strlcpy</li>
+    <li>strlen</li>
+    <li>strmapi</li>
+    <li>strncmp</li>
+    <li>strnstr</li>
+    <li>strrchr</li>
+    <li>strtrim</li>
+    <li>substr</li>
+    <li>tolower</li>
+    <li>toupper</li>
+</ul>
